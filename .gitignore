@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local database and exported data
+EstoqueComponentes/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.csv
+
+# Backups and build artifacts
+*.bak
+estoque_componentes_backup_datasheets.py
+EstoqueEletronico.spec
+build*/
+dist*/
+*.spec.bak
+
+# Local IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
